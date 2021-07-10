@@ -1,0 +1,35 @@
+.component-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 1px solid #5d5987;
+  margin-bottom: 20px;
+  padding: 10px;
+  align-items: center;
+  color: #5d5987;
+}
+.component-header {
+  font-weight: bold;
+  font-size: 16px;
+  font-family: monospace;
+}
+
+.component-title {
+  font-size: large;
+  font-family: monospace;
+}
+
+.component-code {
+  font-size: 16px;
+  background-color: #555273;
+  display: inline-block;
+  color: white;
+  font-family: monospace;
+  padding: 6px;
+  width: fit-content;
+  margin-bottom: 5px;
+}
+
+.long {
+  width: 1055px;
+}
