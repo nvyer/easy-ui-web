@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import DescriptionContainer from "./description";
 import { Routes } from "../../helper/routes";
 import BurgerMenu from "./burgerMenu";
@@ -14,7 +14,7 @@ const Main = () => {
 
     return (
         <div className={classes.mainPageContainer}>
-            <Router>
+            <Router >
                 <Switch>
                     {Routes.map(({ route, component: Component }) => (
                         <Route exact path={route} className="route" key={route}>
