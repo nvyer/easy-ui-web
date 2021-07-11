@@ -33,3 +33,13 @@
 .long {
   width: 1055px;
 }
+
+@media screen and (max-width: 768px) {
+  .component-code {
+    width: 355px;
+    font-size: 13px;
+  }
+  .component-header {
+    text-align: center;
+  }
+}

@@ -224,7 +224,7 @@ export const useDescriptionStyles = createUseStyles({
         width: "200px"
     },
     instalationCode: {
-        padding: "16px",
+        padding: "13px",
         marginTop: "30px",
         color: "white",
         background: "#555273",
@@ -246,6 +246,17 @@ export const useDescriptionStyles = createUseStyles({
         easyToUseIconContainer: {
             display: "flex",
             justifyContent: "center"
+        },
+        instalInfoContainer: {
+            width: "fit-content",
+            marginLeft: "-6px"
+        },
+        usageInfoContainer: {
+            width: "fit-content"
+        },
+        reactInfoContainer: {
+            width: "fit-content",
+            marginLeft: "-23px"
         },
         easyToUseText: {
             marginLeft: "-33px"
@@ -313,7 +324,7 @@ export const useFooterStyles = createUseStyles({
     },
     "@media screen and (max-width: 768px)": {
         footerLogoContainer: {
-            marginLeft: "-26px"
+            marginLeft: "-51px"
         }
     }
 });
