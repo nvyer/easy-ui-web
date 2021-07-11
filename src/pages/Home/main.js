@@ -14,7 +14,7 @@ const Main = () => {
 
     return (
         <div className={classes.mainPageContainer}>
-            <Router basename='https://nvyer.github.io/easy-ui-web'>
+            <Router basename='/easy-ui-web'>
                 <Switch>
                     {Routes.map(({ route, component: Component }) => (
                         <Route exact path={route} className="route" key={route}>
@@ -28,7 +28,7 @@ const Main = () => {
                             <Component key={route} />
                         </Route>
                     ))}
-                    <Route exact path="/">
+                    <Route path="/">
                         <div className={classes.mainPageContainer}>
                             <NavBar clicked={() => setIsMenuOpen(!isMenuOpen)} />
                             {isMenuOpen && (
@@ -48,7 +48,7 @@ const Main = () => {
     );
 };
 
-const RenderBurgerMenu = ({ className, onClick }) => (
+export const RenderBurgerMenu = ({ className, onClick }) => (
     <>
         <div className={className} onClick={onClick}></div>
         <BurgerMenu />

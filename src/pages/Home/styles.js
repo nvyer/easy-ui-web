@@ -92,12 +92,11 @@ export const useBurgerMenuStyles = createUseStyles({
     },
     burgerMenuItem: {
         textDecoration: "none",
-        color: "#5d5987",
+        color: "#1DD4CE",
         fontFamily: "unset",
-        padding: "8px",
+        padding: "14px",
         "&:hover": {
-            color: "white",
-            backgroundColor: "#5d5987",
+            borderBottom: "0.5px solid #1DD4CE"
         }
     },
     componentContainer: {

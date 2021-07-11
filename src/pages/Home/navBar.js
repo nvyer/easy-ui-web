@@ -28,7 +28,7 @@ const NavBar = ({ clicked }) => {
                         </svg>
                     </div>
                     <div className={classes.navBarInfoContainer}>
-                        <Link to="/" color="secondary">Home</Link>
+                        <Link to="/easy-ui-web" color="secondary">Home</Link>
                         <Link color="secondary" to="https://github.com/aca-dec-2020/ui-lib.git">GitHub</Link>
                     </div>
                 </nav>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "easy-ui-react-lib";
+import { Link } from "react-router-dom";
 import { Routes } from "../../helper/routes";
 import { useBurgerMenuStyles } from "./styles";
 
