@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/easy-ui-web/static/css/main.d1e560a6.chunk.css",
-    "main.js": "/easy-ui-web/static/js/main.a960c3b3.chunk.js",
-    "main.js.map": "/easy-ui-web/static/js/main.a960c3b3.chunk.js.map",
+    "main.css": "/easy-ui-web/static/css/main.4151db8c.chunk.css",
+    "main.js": "/easy-ui-web/static/js/main.e6d774d3.chunk.js",
+    "main.js.map": "/easy-ui-web/static/js/main.e6d774d3.chunk.js.map",
     "runtime-main.js": "/easy-ui-web/static/js/runtime-main.5d00088e.js",
     "runtime-main.js.map": "/easy-ui-web/static/js/runtime-main.5d00088e.js.map",
     "static/css/2.58ae39d0.chunk.css": "/easy-ui-web/static/css/2.58ae39d0.chunk.css",
@@ -12,14 +12,14 @@
     "static/js/3.9a9c592d.chunk.js.map": "/easy-ui-web/static/js/3.9a9c592d.chunk.js.map",
     "index.html": "/easy-ui-web/index.html",
     "static/css/2.58ae39d0.chunk.css.map": "/easy-ui-web/static/css/2.58ae39d0.chunk.css.map",
-    "static/css/main.d1e560a6.chunk.css.map": "/easy-ui-web/static/css/main.d1e560a6.chunk.css.map",
+    "static/css/main.4151db8c.chunk.css.map": "/easy-ui-web/static/css/main.4151db8c.chunk.css.map",
     "static/js/2.2a451e68.chunk.js.LICENSE.txt": "/easy-ui-web/static/js/2.2a451e68.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5d00088e.js",
     "static/css/2.58ae39d0.chunk.css",
     "static/js/2.2a451e68.chunk.js",
-    "static/css/main.d1e560a6.chunk.css",
-    "static/js/main.a960c3b3.chunk.js"
+    "static/css/main.4151db8c.chunk.css",
+    "static/js/main.e6d774d3.chunk.js"
   ]
 }
