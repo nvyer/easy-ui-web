@@ -10,7 +10,7 @@ const BurgerMenu = () => {
     <div className={classes.burgerMenuContainer}>
       <span style={{ color: "#5d5987", cursor: "default" }}>
         <p style={{ fontWeight: 500 }}>Easy-UI</p>
-        <p style={{ fontSize: "13px", marginTop: "-15px" }}>version: 1.0.0</p>
+        <p style={{ fontSize: "13px", marginTop: "-15px" }}>version: 1.0.4</p>
         <p style={{
           margin: "5px",
           fontWeight: 600,

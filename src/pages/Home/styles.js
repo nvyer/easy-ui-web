@@ -34,8 +34,7 @@ export const useNavBarStyles = createUseStyles({
         marginRight: "80px",
         width: "300px",
         display: "flex",
-        justifyContent: "space-evenly",
-        cursor: "pointer"
+        justifyContent: "space-evenly"
     },
     navBarLinkHome: {
         width: "100%"
@@ -181,7 +180,7 @@ export const useDescriptionStyles = createUseStyles({
         marginTop: "40px",
     },
     reactInfoText: {
-        width: "226px",
+        width: "219px",
         fontSize: "13px",
         textAlign: "center",
         fontFamily: "serif",
@@ -314,7 +313,7 @@ export const useFooterStyles = createUseStyles({
     },
     "@media screen and (max-width: 768px)": {
         footerLogoContainer: {
-            marginLeft: 0
+            marginLeft: "-26px"
         }
     }
 });

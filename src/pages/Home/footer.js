@@ -16,9 +16,9 @@ const Footer = () => {
           style={{ marginLeft: "-51px", width: "266px", marginTop: "26px", textAlign: "center" }}
         >
           <Link
+            size="small"
             color="secondary"
             to="https://github.com/aca-dec-2020/ui-lib.git"
-            className={classes.footerText}
           >
             Free & Open Source (MIT)
           </Link>
